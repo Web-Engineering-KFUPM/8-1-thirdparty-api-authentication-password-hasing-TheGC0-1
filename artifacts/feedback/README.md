@@ -4,7 +4,7 @@
 
 - **Lab:** 8-1-Thirdparty-API-Authentication-Password-Hasing
 - **Deadline (Riyadh / UTC+03:00):** 2026-04-20T20:59:00+03:00
-- **Last commit time (from git log):** 2026-04-20T11:57:01+03:00
+- **Last commit time (from git log):** 2026-04-20T11:58:07+03:00
 - **Submission marks:** **20/20** (On time)
 
 
@@ -52,35 +52,26 @@
 **Deductions / Notes**
 - ✅ No deductions. Good job!
 
-### TODO 3: GET /weather — **7.43/26**
+### TODO 3: GET /weather — **26/26**
 
 **Checklist**
 - ✅ Defines GET route for "/weather"
-- ❌ Reads Authorization header
-- ❌ Returns 401 when token/header is missing
-- ❌ Extracts bearer token
-- ❌ Verifies JWT using jwt.verify(...)
-- ❌ Returns invalid-token response
-- ❌ Reads city from req.query.city
+- ✅ Reads Authorization header
+- ✅ Returns 401 when token/header is missing
+- ✅ Extracts bearer token
+- ✅ Verifies JWT using jwt.verify(...)
+- ✅ Returns invalid-token response
+- ✅ Reads city from req.query.city
 - ✅ Returns city-required response
-- ❌ Builds some external weather API URL using the city
-- ❌ Uses fetch(...) to call weather API
-- ❌ Checks weather API response status
+- ✅ Builds some external weather API URL using the city
+- ✅ Uses fetch(...) to call weather API
+- ✅ Checks weather API response status
 - ✅ Parses JSON from weather API
-- ❌ Returns some structured weather response
+- ✅ Returns some structured weather response
 - ✅ Has weather error handling
 
 **Deductions / Notes**
-- ❗ Missing: Reads Authorization header
-- ❗ Missing: Returns 401 when token/header is missing
-- ❗ Missing: Extracts bearer token
-- ❗ Missing: Verifies JWT using jwt.verify(...)
-- ❗ Missing: Returns invalid-token response
-- ❗ Missing: Reads city from req.query.city
-- ❗ Missing: Builds some external weather API URL using the city
-- ❗ Missing: Uses fetch(...) to call weather API
-- ❗ Missing: Checks weather API response status
-- ❗ Missing: Returns some structured weather response
+- ✅ No deductions. Good job!
 
 ---
 
