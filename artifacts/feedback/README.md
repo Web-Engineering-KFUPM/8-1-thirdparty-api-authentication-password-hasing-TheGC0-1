@@ -4,7 +4,7 @@
 
 - **Lab:** 8-1-Thirdparty-API-Authentication-Password-Hasing
 - **Deadline (Riyadh / UTC+03:00):** 2026-04-20T20:59:00+03:00
-- **Last commit time (from git log):** 2026-04-20T08:52:00Z
+- **Last commit time (from git log):** 2026-04-20T11:57:01+03:00
 - **Submission marks:** **20/20** (On time)
 
 
@@ -35,27 +35,22 @@
 **Deductions / Notes**
 - ✅ No deductions. Good job!
 
-### TODO 2: POST /login — **10.4/26**
+### TODO 2: POST /login — **26/26**
 
 **Checklist**
 - ✅ Defines POST route for "/login"
 - ✅ Reads req.body or destructures email/password from req.body
 - ✅ Handles user lookup / missing user case
-- ❌ Uses bcrypt.compare(...)
-- ❌ Returns wrong-password response
-- ❌ Creates JWT using jwt.sign(...)
-- ❌ Uses JWT secret "abc123" or JWT_SECRET in jwt.sign
-- ❌ Uses expiresIn "1h" or equivalent
-- ❌ Returns token response
+- ✅ Uses bcrypt.compare(...)
+- ✅ Returns wrong-password response
+- ✅ Creates JWT using jwt.sign(...)
+- ✅ Uses JWT secret "abc123" or JWT_SECRET in jwt.sign
+- ✅ Uses expiresIn "1h" or equivalent
+- ✅ Returns token response
 - ✅ Has login error handling
 
 **Deductions / Notes**
-- ❗ Missing: Uses bcrypt.compare(...)
-- ❗ Missing: Returns wrong-password response
-- ❗ Missing: Creates JWT using jwt.sign(...)
-- ❗ Missing: Uses JWT secret "abc123" or JWT_SECRET in jwt.sign
-- ❗ Missing: Uses expiresIn "1h" or equivalent
-- ❗ Missing: Returns token response
+- ✅ No deductions. Good job!
 
 ### TODO 3: GET /weather — **7.43/26**
 
